@@ -13,6 +13,7 @@ import java.util.Arrays;
 public class Solution08 {
 
     public static void main(String[] args) {
+        System.out.println("===================================");
         int[] arr = {1, 1, 2, 2};
         int i = removeDuplicates2(arr);
         System.out.println(i);
@@ -23,6 +24,11 @@ public class Solution08 {
         System.out.println("===================================");
         int i1 = removeDuplicates3(arr);
         System.out.println(i1);
+
+        System.out.println("");
+        System.out.println("===================================");
+        int i2 = removeDuplicates(arr);
+        System.out.println(i2);
 
 
     }
@@ -95,7 +101,6 @@ public class Solution08 {
             return nums.length;
         }
         num = num < 2 ? 2 : num;
-        nums = Arrays.copyOf(nums, num - 1);
         return num;
     }
 
