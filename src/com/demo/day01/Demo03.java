@@ -39,23 +39,23 @@ public class Demo03 {
 //            System.out.println(v);
 //        }
 //        System.out.println("=====================");
-//        int[] arr4 = new int[]{1, 2, 3, 4, 5, 6, 7};
-//        rotate4(arr4,3);
-//        for (int v : arr4) {
-//            System.out.println(v);
-//        }
+        int[] arr4 = new int[]{1, 2, 3, 4, 5, 6, 7};
+        rotate4(arr4,3);
+        for (int v : arr4) {
+            System.out.println(v);
+        }
 //        System.out.println("=====================");
 //        int[] arr5 = new int[]{1, 2, 3, 4, 5, 6, 7};
 //        rotate5(arr5,3);
 //        for (int v : arr5) {
 //            System.out.println(v);
 //        }
-        System.out.println("=====================");
-        int[] arr6 = new int[]{1, 2, 3, 4, 5, 6, 7};
-        rotate6(arr6,3);
-        for (int v : arr6) {
-            System.out.println(v);
-        }
+//        System.out.println("=====================");
+//        int[] arr6 = new int[]{1, 2, 3, 4, 5, 6, 7};
+//        rotate6(arr6,3);
+//        for (int v : arr6) {
+//            System.out.println(v);
+//        }
     }
 
 
