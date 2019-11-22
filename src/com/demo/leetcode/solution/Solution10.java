@@ -11,7 +11,7 @@ package com.demo.leetcode.solution;
  * 向右旋转 2 步: [6,7,1,2,3,4,5]
  * 向右旋转 3 步: [5,6,7,1,2,3,4]
  */
-public class Sulution10 {
+public class Solution10 {
 
     public static void main(String[] args) {
         int[] arr4 = new int[]{1, 2, 3, 4, 5, 6, 7};
